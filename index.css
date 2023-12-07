@@ -1,6 +1,10 @@
+.e{
+    color: #b87600 ;
+}
+
 body.dark-mode {
     background-color: #333;
-    color: white;
+    color:#07eaff;
 }
 
 nav{
@@ -48,6 +52,7 @@ nav{
 .r{
     font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
     font-size: 50px;
+    color: #d8c300;;
 }
 
 .r:hover{
@@ -77,5 +82,10 @@ border-radius: 5px;
 }
 
 .a{
-    color: purple;
+    color: #5dfc0f;
 }
+
+.m{
+    color: #5dfc0f;
+}
+
