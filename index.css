@@ -53,7 +53,7 @@ nav{
 .r:hover{
     background-color: aqua;
     border-radius: 50PX;
-    width:250px;
+    width:300px;
 }
 
 
@@ -74,4 +74,8 @@ border-radius: 5px;
     .order-sm-last {
         order: 2 !important;
     }
+}
+
+.a{
+    color: purple;
 }
