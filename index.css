@@ -23,14 +23,14 @@ nav{
 }
 
 .about{
-    background-color: aqua;
+    background-color: qua;
     margin-top: 50px;
 }
 
 .line{
-   
+   margin-top:100px ;
     height: 5px;
-    width: 50px; /* Adjust the height as needed */
+    width: 100px; /* Adjust the height as needed */
     background-color: #000; /* Adjust the color as needed */
     border: none; 
     transform: rotate(90deg);
