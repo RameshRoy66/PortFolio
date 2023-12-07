@@ -1,0 +1,42 @@
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+nav{
+    border-radius:2px;
+}
+
+.bg-image{
+    height:auto;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg');
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.transition-image {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    transition: transform 0.3s ease; /* Add smooth transition to the transform property */
+}
+
+.image-container:hover .transition-image {
+    transform: translateX(-100%);
+}
+
+.ramesh{
+    color: aliceblue;
+}
+
+
+
