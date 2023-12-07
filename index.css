@@ -8,7 +8,6 @@ nav{
 }
 
 .bg-image{
-    height:auto;
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,18 +19,19 @@ nav{
     
 .ramesh{
     color: aqua;
+    font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+    font-size:50px;
 }
 
 .about{
-    background-color: qua;
     margin-top: 50px;
+
 }
 
 .line{
-   margin-top:100px ;
     height: 5px;
     width: 100px; /* Adjust the height as needed */
-    background-color: #000; /* Adjust the color as needed */
+    background-color:rgb(155, 255, 6); /* Adjust the color as needed */
     border: none; 
     transform: rotate(90deg);
 
@@ -40,5 +40,38 @@ nav{
 .line{transform: rotate(0deg);}
 }
 
+.text{
+    font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+    font-size:larger;
+}
+
+.r{
+    font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+    font-size: 50px;
+}
+
+.r:hover{
+    background-color: aqua;
+    border-radius: 50PX;
+    width:250px;
+}
 
 
+hr.rounded {
+border-top: 4px solid #bbb;
+border-radius: 5px;
+}
+
+.text:hover{
+    font-family:cursive;
+}
+
+@media (max-width: 575px) {
+    .order-first-sm {
+        order: -1 !important;
+    }
+
+    .order-sm-last {
+        order: 2 !important;
+    }
+}
