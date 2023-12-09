@@ -1,34 +1,79 @@
 .e{
-    color: #b87600 ;
+    color:black ;
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 }
 
 body.dark-mode {
-    background-color: #333;
-    color:#07eaff;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    color:#000000;
 }
 
-nav{
-    border-radius:2px;
+.navbar{
+    padding-left:2% !important;background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: rgba(200, 0, 255, 0.65);
 }
+
+.nav-link{
+    font-size: 16px !important;
+    font-weight:600 !important;  
+}
+.nav-link:hover{
+color: #1adbd1 !important;
+border-radius: 50%;
+text-decoration: underline;
+
+}
+
+.navbar-nav{
+    padding-right: 2% !important;
+}
+
+.button{
+    padding: 3%;
+    font-size:25px;
+    text-decoration:underline !important;
+    color: purple;
+}
+
+.button:hover{
+transform: scale(1.2);
+}
+
+
+
 
 .bg-image{
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg');
-    overflow: hidden;
+    background-color: #4158D0;
+    background-color: #D9AFD9;
+    background-color: #00DBDE;
+    background-color: #08AEEA;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+            
+        overflow: hidden;
 }
 
     
 .ramesh{
-    color: aqua;
-    font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
     font-size:50px;
+    padding-top: 50%;
+
+    font-family: Arial, Helvetica, sans-serif; 
+    background: linear-gradient(to right, #f32170,  #ff6b08, #cf23cf, #eedd44); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
 }
 
 .about{
     margin-top: 50px;
+    
 
 }
 
@@ -45,20 +90,21 @@ nav{
 }
 
 .text{
-    font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+    font-family:serif;
     font-size:larger;
 }
 
 .r{
-    font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
-    font-size: 50px;
-    color: #d8c300;;
+    font-family:"times new roman";
+    font-size: 28px;
+    color: #6106ff;;
 }
 
 .r:hover{
-    background-color: aqua;
-    border-radius: 50PX;
-    width:300px;
+    color: rgb(59, 5, 255);
+    transform: scale(1.3);
+
+   
 }
 
 
@@ -82,10 +128,37 @@ border-radius: 5px;
 }
 
 .a{
-    color: #5dfc0f;
+    color: 	#e33c66;
+    font-family:sans-serif ;
+    
 }
 
 .m{
-    color: #5dfc0f;
+    color: 	#e33c66;}
+
+
+
+
+.padding{
+
+padding:7% ;
+
 }
 
+
+
+                                              /* background images  */
+.bi-1{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}        
+
+.bi-2{ 
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}  
+
+
+.bi-3{ background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+} 
